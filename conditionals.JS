@@ -16,4 +16,6 @@ if(age >=18 && age <= 65) {
     console.log(`OAP`)
 }
 
+// if age > 50 ? console.log(`true`) : console.log(`false`);
+
 
