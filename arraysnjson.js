@@ -22,3 +22,27 @@ console.log(myArray);
 for(item of myArray){
     console.log(item);
 }
+
+// JSON
+
+// JavaScript Object Notation
+// Literal notation for JS objects
+
+let newJSON = {
+    name : `Denzel`,
+    age : 22,
+    nationality: `Nigeria`
+}
+
+// to convert JSON to different datatypes 
+// we have to use OVERLOADED methods
+
+// JSON to string
+let str = JSON.stringify(newJSON);
+
+console.log(newJSON);
+console.log(str);
+
+// String to JSON
+let person = JSON.parse(`{"name":"raine","age":22,"nationality":"Jamaica"}`);
+console.log(person);
